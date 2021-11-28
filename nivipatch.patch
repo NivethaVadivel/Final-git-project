@@ -1,0 +1,51 @@
+diff --git a/factorial.c b/factorial.c
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/pavithra.txt b/pavithra.txt
+deleted file mode 100644
+index 7e27be5..0000000
+--- a/pavithra.txt
++++ /dev/null
+@@ -1,14 +0,0 @@
+-#include<stdio.h>  
+-int main()    
+-{    
+- int i,fact=1,number;    
+- printf("Enter a number: ");    
+-  scanf("%d",&number);    
+-    for(i=1;i<=number;i++){    
+-      fact=fact*i;    
+-  }    
+-  printf("Factorial of %d is: %d",number,fact);    
+-return 0;  
+-}    
+-
+-
+diff --git a/pavithrafile1.patch b/pavithrafile1.patch
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/pavithraj.txt b/pavithraj.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/sample.txt b/sample.txt
+index 7119da4..8991008 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -14,16 +14,4 @@
+     }  
+       
+     return 0;  
+-} 
+-#include<stdio.h>  
+-int main()    
+-{    
+- int i,fact=1,number;    
+- printf("Enter a number: ");    
+-  scanf("%d",&number);    
+-    for(i=1;i<=number;i++){    
+-      fact=fact*i;    
+-  }    
+-  printf("Factorial of %d is: %d",number,fact);    
+-return 0;  
+-}   
++}  
